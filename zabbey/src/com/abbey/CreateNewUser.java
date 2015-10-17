@@ -1,5 +1,6 @@
 
 package com.abbey;
+
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -57,6 +58,7 @@ public class CreateNewUser {
 	public void tearDown() throws Exception {
 		selenium.stop();
 		System.out.println("#########  Hoi");
+		System.out.println("#########  Hoi33");
 	}
 
 }
