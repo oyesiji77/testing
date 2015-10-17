@@ -56,6 +56,7 @@ public class CreateNewUser {
 	@After
 	public void tearDown() throws Exception {
 		selenium.stop();
+		System.out.println("#########  Hoi");
 	}
 
 }
